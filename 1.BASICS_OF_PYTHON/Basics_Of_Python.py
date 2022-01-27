@@ -6,10 +6,10 @@ from pkg_resources import PEP440Warning
 print('Hello world program!!')
 print('Hello rahul, How are you?')
 
-print('__________________________________________________________________')
-print('\n')
-print('*** Numbers in python  ***')
-print('\n')
+"""
+Numbers in python
+
+"""
 
 print('addition ', 1+1)
 print('substraction ', 2-2)
@@ -18,35 +18,30 @@ print('Division', 44/2)
 print('Modulus', 10 % 5)
 print('Power', 2 ** 3)
 
-print('\n')
+"""
+Math Functions in Python
 
-print('________________________________________________________________')
-print('\n')
-print('*** Math Functions in Python ***')
-print('\n')
+"""
 
 print('Pow', pow(10, 2))
 print('Absolute', abs(-99.888))
 print('Sine ', math.cos(120))
 print('Floor division  ', 12.5//4)
 
-print('\n')
+"""
+Comparison Operators in Python
 
-print('________________________________________________________________')
-print('\n')
-print('*** Comparison Operators in Python ***')
-print('\n')
+"""
+
 print('== ', 2 == 2)
 print('!= ', 3 != 4)
 print('>  ', 2 > 1)
 
 
-print('\n')
+"""
+Logical Operators in Python
 
-print('________________________________________________________________')
-print('\n')
-print('*** Logical Operators in Python ***')
-print('\n')
+"""
 
 
 if 3 > 1 and 3 > 2:
@@ -62,12 +57,10 @@ if not x > 20:
     print('not in python')
 
 
-print('\n')
+"""
+Membership Operators in Python
 
-print('________________________________________________________________')
-print('\n')
-print('*** Membership Operators in Python ***')
-print('\n')
+"""
 
 if 'i' in 'String':
     print('in in python')
@@ -75,12 +68,11 @@ if 'i' in 'String':
 if 'i' not in 'Apple':
     print('not in in python')
 
-print('\n')
+"""
 
-print('________________________________________________________________')
-print('\n')
-print('*** Identity Operators in Python ***')
-print('\n')
+Identity Operators in Python
+
+"""
 
 
 if (2 > 1) is True:
