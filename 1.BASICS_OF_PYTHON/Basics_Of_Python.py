@@ -74,7 +74,6 @@ Identity Operators in Python
 
 """
 
-
 if (2 > 1) is True:
     print('is true')
 
@@ -82,8 +81,8 @@ if (1 > 10) is not True:
     print('is not true')
 
 
-x = input('Enter the number')
-print(int(x) ** 2)
+# x = input('Enter the number')
+# print(int(x) ** 2)
 
 
 """
@@ -110,13 +109,26 @@ c = None
     Strings
     List
     Tuple
+    Sets
 """
 
 hello = "Hello"
 Hello_List = [1, 2, 3, "hello", "List"]
 hello_Tuple = (1, 2, 3, "hello", "list")
-
+hello_Set = {1, 2, 4, 4, 4}
 
 print(type(hello))
 print(type(Hello_List))
 print(type(hello_Tuple))
+print(type(hello_Set))
+print(hello_Set)
+
+"""[Mapping]
+             Dictionaries : here data type is stored in key value pair.
+"""
+
+Dict = {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5, 'f': 6}
+print(type(Dict))
+print(Dict)
+
+
