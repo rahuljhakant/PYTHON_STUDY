@@ -16,6 +16,12 @@ obj = Apollo()
 obj.fly()
 obj.get_destination()
 obj.destination = "earth"
+obj.get_destination()
+
+# we can also create an object of a class by using the keyword "object"
+obj.hello = " James bond"
+
+print(obj.hello)
 
 """[About objects]
     # Objects are created when you create a class.
