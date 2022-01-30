@@ -44,3 +44,25 @@ print(childObj.b)
     * code maintainability
     * Structured Code
 """
+
+
+# Python - Multiple Inheritance
+# Python - Multilevel Inheritance
+
+
+# Using issubclass() method
+class Parent:
+    var1 = 1
+
+    def func1(self):
+        print("Doing something in parent")
+
+
+class Child(Parent):
+    var2 = 2
+
+    def func2(self):
+        print("Doing something in child")
+
+
+print(issubclass(Child, Parent))
