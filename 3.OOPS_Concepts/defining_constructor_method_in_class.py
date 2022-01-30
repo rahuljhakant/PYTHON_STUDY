@@ -1,4 +1,5 @@
 """
+
 Defining Constructor method in a class
 --------------------------------------
 
@@ -19,14 +20,14 @@ class constructor:
     def __new__(self):
         print("New is called when the object is created")
 
-    # def __init__(self, numInt):
-    #     self.numInt = numInt
-    #     print("object is initialized")
+    def __init__(self, numInt):
+        self.numInt = numInt
+        print("object is initialized")
 
     def __del__(self):
         print("object is destroyed")
 
 
-obj = constructor();
+obj = constructor()
 
-del obj;
+del obj
