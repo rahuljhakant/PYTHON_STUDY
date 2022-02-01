@@ -3,6 +3,11 @@
 """
 
 
+"""
+In Python the __init__() method is called the constructor and is always called when an object is created.
+"""
+
+
 class Happy:
 
     def __new__(self):
