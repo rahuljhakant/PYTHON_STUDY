@@ -46,6 +46,3 @@ if match != None:
 
 else:
     print("The regex pattern does not match.")
-
-
-
